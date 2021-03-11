@@ -1,0 +1,658 @@
+\begin{thebibliography}{116}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Albrecht(1989)}]{Albrecht1989}
+Albrecht, B.~A., 1989: Aerosols, cloud microphysics, and fractional cloudiness.
+  \textit{Science}, \textbf{245~(4923)}, 1227--1230.
+
+\bibitem[{Allen et~al.(1987)Allen, Tildesley,, and Banavar}]{Allen1987}
+Allen, M., D.~Tildesley, and J.~R. Banavar, 1987: \textit{Computer Simulation
+  of Liquids}. Oxford University Press, 385 pp.
+
+\bibitem[{Amdahl(1967)}]{Amdahl1967}
+Amdahl, G.~M., 1967: Validity of the single processor approach to achieving
+  large scale computing capabilities. \textit{Proceedings of the April 18-20,
+  1967, spring joint computer conference}, ACM, 483--485.
+
+\bibitem[{Ayala et~al.(2007)Ayala, Grabowski,, and Wang}]{Ayala2007}
+Ayala, O., W.~W. Grabowski, and L.-P. Wang, 2007: A hybrid approach for
+  simulating turbulent collisions of hydrodynamically-interacting particles.
+  \textit{Journal of Computational Physics}, \textbf{225~(1)}, 51--73,
+  \doi{http://dx.doi.org/10.1016/j.jcp.2006.11.016}.
+
+\bibitem[{Ayala et~al.(2014)Ayala, Parishani, Chen, Rosa,, and
+  Wang}]{Ayala2014}
+Ayala, O., H.~Parishani, L.~Chen, B.~Rosa, and L.-P. Wang, 2014: Dns of
+  hydrodynamically interacting droplets in turbulent clouds: Parallel
+  implementation and scalability analysis using 2d domain decomposition.
+  \textit{Computer Physics Communications}, \textbf{185~(12)}, 3269--3290,
+  \doi{http://dx.doi.org/10.1016/j.cpc.2014.09.005}.
+
+\bibitem[{Ayala et~al.(2008{\natexlab{a}})Ayala, Rosa,, and Wang}]{Ayala2008b}
+Ayala, O., B.~Rosa, and L.-P. Wang, 2008{\natexlab{a}}: Effects of turbulence
+  on the geometric collision rate of sedimenting droplets. part 2. theory and
+  parameterization. \textit{New J. Phys.}, \textbf{10}, 075\,016,
+  \doi{10.1088/1367-2630/10/7/075016}.
+
+\bibitem[{Ayala et~al.(2008{\natexlab{b}})Ayala, Rosa, Wang,, and
+  Grabowski}]{Ayala2008a}
+Ayala, O., B.~Rosa, L.-P. Wang, and W.~W. Grabowski, 2008{\natexlab{b}}:
+  Effects of turbulence on the geometric collision rate of sedimenting
+  droplets. part 1. results from direct numerical simulation. \textit{New J.
+  Phys.}, \textbf{10}, 075\,015, \doi{10.1088/1367-2630/10/7/075015}.
+
+\bibitem[{Baker et~al.(1980)Baker, Corbin,, and Latham}]{baker1980}
+Baker, M., R.~Corbin, and J.~Latham, 1980: The influence of entrainment on the
+  evolution of cloud droplet spectra: I. a model of inhomogeneous mixing.
+  \textit{Quart. J. Roy. Meteor. Soc.}, \textbf{106~(449)}, 581--598.
+
+\bibitem[{Beard and Pruppacher(1971)Beard, and Pruppacher}]{Beard1971}
+Beard, K., and H.~R. Pruppacher, 1971: A wind tunnel investigation of the rate
+  of evaporation of small water drops falling at terminal velocity in air.
+  \textit{Journal of the atmospheric Sciences}, \textbf{28~(8)}, 1455--1464.
+
+\bibitem[{Benmoshe and Khain(2014)Benmoshe, and Khain}]{Benmoshe2014}
+Benmoshe, N., and A.~Khain, 2014: The effects of turbulence on the microphysics
+  of mixed-phase deep convective clouds investigated with a 2-d cloud model
+  with spectral bin microphysics. \textit{Journal of Geophysical Research:
+  Atmospheres}, \textbf{119~(1)}, 207--221.
+
+\bibitem[{Bennartz(2007)}]{Bennartz2007}
+Bennartz, R., 2007: Global assessment of marine boundary layer cloud droplet
+  number concentration from satellite. \textit{Journal of Geophysical Research:
+  Atmospheres}, \textbf{112~(D2)}.
+
+\bibitem[{Blyth et~al.(2003)Blyth, Lasher-Trapp, Cooper, Knight,, and
+  Latham}]{blyth2003}
+Blyth, A.~M., S.~G. Lasher-Trapp, W.~A. Cooper, C.~A. Knight, and J.~Latham,
+  2003: The role of giant and ultragiant nuclei in the formation of early radar
+  echoes in warm cumulus clouds. \textit{J. Atmos. Sci.}, \textbf{60~(21)},
+  2557--2572.
+
+\bibitem[{Bordás et~al.(2013)Bordás, Ch, Thévenin,, and Shaw}]{Bordas2013}
+Bordás, R., R.~Ch, D.~Thévenin, and R.~A. Shaw, 2013: Experimental
+  determination of droplet collision rates in turbulence. \textit{New Journal
+  of Physics}, \textbf{15~(4)}, 045\,010.
+
+\bibitem[{Brenguier and Chaumat(2001)Brenguier, and Chaumat}]{BC2001}
+Brenguier, J.-L., and L.~Chaumat, 2001: Droplet spectra broadening in cumulus
+  clouds. part i: Broadening in adiabatic cores. \textit{J. Atmos. Sci.},
+  \textbf{58~(6)}, 628--641.
+
+\bibitem[{Chen et~al.(2006)Chen, {S. Goto},, and {J. C. Vassilicos}}]{Chen2006}
+Chen, L., {S. Goto}, and {J. C. Vassilicos}, 2006: {Turbulent clustering of
+  stagnation points and inertial particles}. \textit{Journal of Fluid
+  Mechanics}, \textbf{553}, 143--154.
+
+\bibitem[{Chen et~al.(2016)Chen, Bartello, Yau, Vaillancourt,, and
+  Zwijsen}]{Chen2016}
+Chen, S., P.~Bartello, M.~K. Yau, P.~A. Vaillancourt, and K.~Zwijsen, 2016:
+  Cloud droplet collisions in turbulent environment: Collision statistics and
+  parameterization. \textit{Journal of the Atmospheric Sciences},
+  \textbf{73~(2)}, 621--636, \doi{10.1175/JAS-D-15-0203.1}.
+
+\bibitem[{Chen et~al.(2018)Chen, Yau,, and Bartello}]{Chen2018}
+Chen, S., M.~K. Yau, and P.~Bartello, 2018: Turbulence effects of collision
+  efficiency and broadening of droplet size distribution in cumulus clouds.
+  \textit{J. Atmos. Sci.}, \doi{10.1175/JAS-D-17-0123.1}.
+
+\bibitem[{Chen et~al.(2012)Chen, Christensen, Xue, Sorooshian, Stephens,
+  Rasmussen,, and Seinfeld}]{Chen2012}
+Chen, Y.-C., M.~W. Christensen, L.~Xue, A.~Sorooshian, G.~L. Stephens, R.~M.
+  Rasmussen, and J.~H. Seinfeld, 2012: Occurrence of lower cloud albedo in ship
+  tracks. \textit{Atmospheric Chemistry and Physics}, \textbf{12~(17)},
+  8223--8235, \doi{10.5194/acp-12-8223-2012}.
+
+\bibitem[{Cooper(1989)}]{cooper1989}
+Cooper, W.~A., 1989: Effects of variable droplet growth histories on droplet
+  size distributions. part i: Theory. \textit{J. Atmos. Sci.},
+  \textbf{46~(10)}, 1301--1311.
+
+\bibitem[{Cooper et~al.(2013)Cooper, Lasher-Trapp,, and Blyth}]{cooper2013}
+Cooper, W.~A., S.~G. Lasher-Trapp, and A.~M. Blyth, 2013: The influence of
+  entrainment and mixing on the initial formation of rain in a warm cumulus
+  cloud. \textit{J. Atmos. Sci.}, \textbf{70~(6)}, 1727--1743.
+
+\bibitem[{de~Almeida(1979)}]{Almeida1979}
+de~Almeida, F.~C., 1979: The collisional problem of cloud droplets moving in a
+  turbulent environment–part ii: Turbulent collision efficiencies.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{36~(8)}, 1564--1576,
+  \doi{10.1175/1520-0469(1979)036<1564:TCPOCD>2.0.CO;2}.
+
+\bibitem[{Desai et~al.(2018)Desai, Chandrakar, Chang, Cantrell,, and
+  Shaw}]{Desai2018}
+Desai, N., K.~K. Chandrakar, K.~Chang, W.~Cantrell, and R.~A. Shaw, 2018:
+  Influence of microphysical variability on stochastic condensation in a
+  turbulent laboratory cloud. \textit{Journal of the Atmospheric Sciences},
+  \textbf{75~(1)}, 189--201, \doi{10.1175/JAS-D-17-0158.1}.
+
+\bibitem[{Devenish et~al.(2012)}]{Devenish2012}
+Devenish, B.~J., and Coauthors, 2012: Droplet growth in warm turbulent clouds.
+  \textit{Quart. J. Roy. Meteor. Soc.}, \textbf{138}, 1401--1429,
+  \doi{10.1002/qj.1897}.
+
+\bibitem[{Fan et~al.(2016)Fan, Wang, Rosenfeld,, and Liu}]{Fan2016}
+Fan, J., Y.~Wang, D.~Rosenfeld, and X.~Liu, 2016: Review of aerosol--cloud
+  interactions: mechanisms, significance, and challenges. \textit{Journal of
+  the Atmospheric Sciences}, \textbf{73~(11)}, 4221--4252.
+
+\bibitem[{Fessler et~al.(1994)Fessler, Kulick,, and Eaton}]{Fessler1994}
+Fessler, J.~R., J.~D. Kulick, and J.~K. Eaton, 1994: Preferential concentration
+  of heavy particles in a turbulent channel flow. \textit{Phys. Fluids
+  (1994-present)}, \textbf{6}, 3742--3749, \doi{10.1016/0301-9322(94)90072-8}.
+
+\bibitem[{Franklin(2008)}]{Franklin2008}
+Franklin, C.~N., 2008: A warm rain microphysics parameterization that includes
+  the effect of turbulence. \textit{Journal of the Atmospheric Sciences},
+  \textbf{65~(6)}, 1795--1816, \doi{10.1175/2007JAS2556.1}.
+
+\bibitem[{Franklin(2014)}]{Franklin2014}
+Franklin, C.~N., 2014: The effects of turbulent collision--coalescence on
+  precipitation formation and precipitation-dynamical feedbacks in simulations
+  of stratocumulus and shallow cumulus convection. \textit{Atmospheric
+  Chemistry and Physics}, \textbf{14~(13)}, 6557--6570.
+
+\bibitem[{Franklin et~al.(2007)Franklin, Vaillancourt,, and Yau}]{Franklin2007}
+Franklin, C.~N., P.~A. Vaillancourt, and M.~K. Yau, 2007: Statistics and
+  parameterizations of the effect of turbulence on the geometric collision
+  kernel of cloud droplets. \textit{J. Atmos. Sci.}, \textbf{64}, 938--954,
+  \doi{10.1175/jas3872.1}.
+
+\bibitem[{Franklin et~al.(2005)Franklin, vaillancourt, Yau,, and
+  Bartello}]{Franklin2005}
+Franklin, C.~N., P.~A. vaillancourt, M.~K. Yau, and P.~Bartello, 2005:
+  Collision rates of cloud droplets in turbulent flow. \textit{J. Atmos. Sci.},
+  \doi{http://dx.doi.org/10.1175/JAS3493.1}.
+
+\bibitem[{Friedrich et~al.(2016)Friedrich, Kalina, Aikins, Gochis,, and
+  Rasmussen}]{Friedrich2016}
+Friedrich, K., E.~A. Kalina, J.~Aikins, D.~Gochis, and R.~Rasmussen, 2016:
+  Precipitation and cloud structures of intense rain during the 2013 great
+  colorado flood. \textit{Journal of Hydrometeorology}, \textbf{17~(1)},
+  27--52, \doi{10.1175/JHM-D-14-0157.1}.
+
+\bibitem[{Glienke et~al.(2017)Glienke, Kostinski, Fugal, Shaw, Borrmann,, and
+  Stith}]{GRL2017}
+Glienke, S., A.~Kostinski, J.~Fugal, R.~A. Shaw, S.~Borrmann, and J.~Stith,
+  2017: Cloud droplets to drizzle: Contribution of transition drops to
+  microphysical and optical properties of marine stratocumulus clouds.
+  \textit{Geophys. Res. Lett.}, \textbf{44~(15)}, 8002--8010.
+
+\bibitem[{Gochis et~al.(2015)}]{Gochis2013}
+Gochis, D., and Coauthors, 2015: The great colorado flood of september 2013.
+  \textit{Bulletin of the American Meteorological Society}, \textbf{96~(9)},
+  1461--1487, \doi{10.1175/BAMS-D-13-00241.1}.
+
+\bibitem[{Goke et~al.(2007)Goke, Ochs~III,, and Rauber}]{Goke2007}
+Goke, S., H.~T. Ochs~III, and R.~M. Rauber, 2007: Radar analysis of
+  precipitation initiation in maritime versus continental clouds near the
+  florida coast: Inferences concerning the role of ccn and giant nuclei.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{64~(10)}, 3695--3707.
+
+\bibitem[{Gotoh et~al.(2016)Gotoh, Suehiro,, and Saito}]{Gotoh2016}
+Gotoh, T., T.~Suehiro, and I.~Saito, 2016: Continuous growth of cloud droplets
+  in cumulus cloud. \textit{New J. Phys.}, \textbf{18~(4)}, 043\,042.
+
+\bibitem[{Grabowski et~al.(2015)Grabowski, Wang,, and Prabha}]{Grabowski2015}
+Grabowski, W., L.-P. Wang, and T.~Prabha, 2015: Macroscopic impacts of cloud
+  and precipitation processes on maritime shallow convection as simulated by a
+  large eddy simulation model with bin microphysics. \textit{Atmospheric
+  Chemistry and Physics}, \textbf{15~(2)}, 913--926.
+
+\bibitem[{Grabowski and Abade(2017)Grabowski, and Abade}]{grabowski2017}
+Grabowski, W.~W., and G.~C. Abade, 2017: Broadening of cloud droplet spectra
+  through eddy hopping: Turbulent adiabatic parcel simulations. \textit{J.
+  Atmos. Sci.}, \textbf{74~(5)}, 1485--1493.
+
+\bibitem[{Grabowski and Wang(2013)Grabowski, and Wang}]{Grabowski2013}
+Grabowski, W.~W., and L.-P. Wang, 2013: Growth of cloud droplets in a turbulent
+  environment. \textit{Annu. Rev. Fluid Mech.}, \textbf{45}, 293--324,
+  \doi{10.1146/annurev-fluid-011212-140750}.
+
+\bibitem[{Hall(1980)}]{Hall1980}
+Hall, W.~D., 1980: A detailed microphysical model within a two-dimensional
+  dynamic framework: Model description and preliminary results. \textit{Journal
+  of the Atmospheric Sciences}, \textbf{37~(11)}, 2486--2507,
+  \doi{10.1175/1520-0469(1980)037<2486:ADMMWA>2.0.CO;2}.
+
+\bibitem[{Hu and Mei(1997)Hu, and Mei}]{Hu1997}
+Hu, C., and R.~Mei, 1997: Effect of inertia on the particle collision
+  coefficient in gaussian turbulence. \textit{CDROM Proceedings, ASME Fluid
+  Engineering Div. Summer Meeting}.
+
+\bibitem[{Jensen and Nugent(2017)Jensen, and Nugent}]{Jensen2017}
+Jensen, J.~B., and A.~D. Nugent, 2017: Condensational growth of drops formed on
+  giant sea-salt aerosol particles. \textit{J. Atmos. Sci.}, \textbf{74~(3)},
+  679--697.
+
+\bibitem[{Jiang et~al.(2009)Jiang, Feingold,, and Koren}]{Jiang2009}
+Jiang, H., G.~Feingold, and I.~Koren, 2009: Effect of aerosol on trade cumulus
+  cloud morphology. \textit{Journal of Geophysical Research: Atmospheres},
+  \textbf{114~(D11)}.
+
+\bibitem[{Johnson(1982)}]{johnson1982}
+Johnson, D.~B., 1982: The role of giant and ultragiant aerosol particles in
+  warm rain initiation. \textit{J. Atmos. Sci.}, \textbf{39~(2)}, 448--460.
+
+\bibitem[{Jonas(1996)}]{Jonas1996}
+Jonas, P., 1996: Turbulence and cloud microphysics. \textit{Atmospheric
+  Research}, \textbf{40~(2)}, 283 -- 306,
+  \doi{http://dx.doi.org/10.1016/0169-8095(95)00035-6}.
+
+\bibitem[{Khain et~al.(2013)Khain, Prabha, Benmoshe, Pandithurai,, and
+  Ovchinnikov}]{Khain2013}
+Khain, A., T.~V. Prabha, N.~Benmoshe, G.~Pandithurai, and M.~Ovchinnikov, 2013:
+  The mechanism of first raindrops formation in deep convective clouds.
+  \textit{Journal of Geophysical Research: Atmospheres}, \textbf{118~(16)},
+  9123--9140, \doi{10.1002/jgrd.50641}.
+
+\bibitem[{Knight et~al.(2002)Knight, Vivekanandan,, and
+  Lasher-Trapp}]{Knight2002}
+Knight, C.~A., J.~Vivekanandan, and S.~G. Lasher-Trapp, 2002: First radar
+  echoes and the early z dr history of florida cumulus. \textit{Journal of the
+  atmospheric sciences}, \textbf{59~(9)}, 1454--1472.
+
+\bibitem[{Kolmogorov(1962)}]{Kolmogorov1962}
+Kolmogorov, A.~N., 1962: A refinement of previous hypotheses concerning the
+  local structure of turbulence in a viscous incompressible fluid at high
+  reynolds number. \textit{Journal of Fluid Mechanics}, \textbf{13~(1)},
+  82--85.
+
+\bibitem[{Koziol and Leighton(1996)Koziol, and Leighton}]{Koziol1996}
+Koziol, A.~S., and H.~G. Leighton, 1996: The effect of turbulence on the
+  collision rates of small cloud drops. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{53~(13)}, 1910--1920,
+  \doi{10.1175/1520-0469(1996)053<1910:TEOTOT>2.0.CO;2}.
+
+\bibitem[{Lanotte et~al.(2009)Lanotte, Seminara,, and Toschi}]{Lanotte2009}
+Lanotte, A.~S., A.~Seminara, and F.~Toschi, 2009: Cloud droplet growth by
+  condensation in homogeneous isotropic turbulence. \textit{J. Atmos. Sci.},
+  \textbf{66~(6)}, 1685--1697.
+
+\bibitem[{Lasher-trapp et~al.(2005)Lasher-trapp, Cooper,, and
+  Blyth}]{lasher2005}
+Lasher-trapp, S.~G., W.~A. Cooper, and A.~M. Blyth, 2005: Broadening of droplet
+  size distributions from entrainment and mixing in a cumulus cloud.
+  \textit{Quart. J. Roy. Meteor. Soc.}, \textbf{131~(605)}, 195--220.
+
+\bibitem[{Lau and Wu(2003)Lau, and Wu}]{Lau2003}
+Lau, K., and H.~Wu, 2003: Warm rain processes over tropical oceans and climate
+  implications. \textit{Geophysical Research Letters}, \textbf{30~(24)}.
+
+\bibitem[{Leaitch et~al.(1992)Leaitch, Isaac, Strapp, Banic,, and
+  Wiebe}]{Leaitch1992}
+Leaitch, W., G.~Isaac, J.~Strapp, C.~Banic, and H.~Wiebe, 1992: The
+  relationship between cloud droplet number concentrations and anthropogenic
+  pollution: Observations and climatic implications. \textit{Journal of
+  Geophysical Research: Atmospheres}, \textbf{97~(D2)}, 2463--2474.
+
+\bibitem[{Mason(1975)}]{Mason1975}
+Mason, B.~J., 1975: \textit{Clouds, rain and rainmaking}. Cambridge University
+  Press.
+
+\bibitem[{Maxey(1987)}]{Maxey1987}
+Maxey, M., 1987: The gravitational settling of aerosol particles in homogeneous
+  turbulence and random flow fields. \textit{J. Fluid Mech.}, \textbf{174},
+  441--465, \doi{http://dx.doi.org/10.1017/S0022112087000193}.
+
+\bibitem[{Morrison et~al.(2005)Morrison, Curry,, and
+  Khvorostyanov}]{Morrison2005}
+Morrison, H., J.~Curry, and V.~Khvorostyanov, 2005: A new double-moment
+  microphysics parameterization for application in cloud and climate models.
+  part i: Description. \textit{Journal of the Atmospheric Sciences},
+  \textbf{62~(6)}, 1665--1677.
+
+\bibitem[{Onishi and Seifert(2016)Onishi, and Seifert}]{Onishi2016}
+Onishi, R., and A.~Seifert, 2016: Reynolds-number dependence of turbulence
+  enhancement on collision growth. \textit{Atmospheric Chemistry and Physics},
+  \textbf{16~(19)}, 12\,441--12\,455.
+
+\bibitem[{Onishi et~al.(2013)Onishi, Takahashi,, and Vassilicos}]{Onishi2013}
+Onishi, R., K.~Takahashi, and J.~C. Vassilicos, 2013: An efficient parallel
+  simulation of interacting inertial particles in homogeneous isotropic
+  turbulence. \textit{Journal of Computational Physics}, \textbf{242},
+  809--827.
+
+\bibitem[{Orszag(1969)}]{Orszag1969}
+Orszag, S.~A., 1969: Numerical methods for the simulation of turbulence.
+  \textit{Physics of Fluids (1958-1988)}, \textbf{12~(12)}, II--250--II--257,
+  \doi{http://dx.doi.org/10.1063/1.1692445}.
+
+\bibitem[{Pachauri et~al.(2014)}]{ipcc2014}
+Pachauri, R.~K., and Coauthors, 2014: \textit{Climate change 2014: synthesis
+  report. Contribution of Working Groups I, II and III to the fifth assessment
+  report of the Intergovernmental Panel on Climate Change}. IPCC.
+
+\bibitem[{Painemal and Minnis(2012)Painemal, and Minnis}]{Painemal2012}
+Painemal, D., and P.~Minnis, 2012: On the dependence of albedo on cloud
+  microphysics over marine stratocumulus clouds regimes determined from clouds
+  and the earth's radiant energy system (ceres) data. \textit{Journal of
+  Geophysical Research: Atmospheres}, \textbf{117~(D6)}.
+
+\bibitem[{Pawlowska et~al.(2006)Pawlowska, Grabowski,, and
+  Brenguier}]{Pawlowska2006}
+Pawlowska, H., W.~W. Grabowski, and J.-L. Brenguier, 2006: Observations of the
+  width of cloud droplet spectra in stratocumulus. \textit{Geophys. Res.
+  Lett.}, \textbf{33~(19)}.
+
+\bibitem[{Payne(1972)}]{Payne1972}
+Payne, R.~E., 1972: Albedo of the sea surface. \textit{Journal of the
+  Atmospheric Sciences}, \textbf{29~(5)}, 959--970.
+
+\bibitem[{Pinsky and Khain(1997)Pinsky, and Khain}]{Pinsky1997}
+Pinsky, M., and A.~Khain, 1997: Turbulence effects on droplet growth and size
+  distribution in clouds—a review. \textit{Journal of Aerosol Science},
+  \textbf{28~(7)}, 1177 -- 1214,
+  \doi{http://dx.doi.org/10.1016/S0021-8502(97)00005-0}.
+
+\bibitem[{Pinsky and Khain(2004)Pinsky, and Khain}]{Pinsky2004}
+Pinsky, M., and A.~Khain, 2004: Collisions of small drops in a turbulent flow.
+  part ii: Effects of flow accelerations. \textit{J. Atmos. Sci.}, \textbf{61},
+  \doi{http://dx.doi.org/10.1175/1520-0469(2004)061<1926:COSDIA>2.0.CO;2}.
+
+\bibitem[{Pinsky et~al.(2006)Pinsky, Khain, Grits,, and
+  Shapiro}]{Pinsky2006collision}
+Pinsky, M., A.~Khain, B.~Grits, and M.~Shapiro, 2006: Collisions of small drops
+  in a turbulent flow. part iii: Relative droplet fluxes and swept volumes.
+  \textit{Journal of the atmospheric sciences}, \textbf{63~(8)}, 2123--2139.
+
+\bibitem[{Pinsky et~al.(2008)Pinsky, Khain,, and Krugliak}]{Pinsky2008}
+Pinsky, M., A.~Khain, and H.~Krugliak, 2008: Collisions of cloud droplets in a
+  turbulent flow. part v: Application of detailed tables of turbulent collision
+  rate enhancement to simulation of droplet spectra evolution. \textit{Journal
+  of the Atmospheric Sciences}, \textbf{65~(2)}, 357--374,
+  \doi{10.1175/2007JAS2358.1}.
+
+\bibitem[{Pinsky et~al.(2007)Pinsky, Khain,, and Shapiro}]{Pinsky2007}
+Pinsky, M.~B., A.~P. Khain, and M.~Shapiro, 2007: Collisions of cloud droplets
+  in a turbulent flow. part iv: Droplet hydrodynamic interaction.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{64~(7)}, 2462--2482,
+  \doi{10.1175/JAS3952.1}.
+
+\bibitem[{Pope(2000)}]{Pope2000}
+Pope, S.~B., 2000: \textit{Turbulent flows}. Cambridge university press.
+
+\bibitem[{Prabha et~al.(2012)}]{Prabha2012}
+Prabha, T.~V., and Coauthors, 2012: Spectral width of premonsoon and monsoon
+  clouds over indo-gangetic valley. \textit{Journal of Geophysical Research:
+  Atmospheres}, \textbf{117~(D20)}.
+
+\bibitem[{Pruppacher and Klett(1997)Pruppacher, and Klett}]{Pruppacher1997}
+Pruppacher, H., and J.~Klett, 1997: \textit{Microphysics of Clouds and
+  Precipitation: With an Introduction to Cloud Chemistry and Cloud
+  Electricity}. 2nd ed., Kluwer Acad., Norwell, Mass, 954 pp.
+
+\bibitem[{Raga et~al.(1990)Raga, Jensen,, and Baker}]{Raga1990}
+Raga, G.~B., J.~B. Jensen, and M.~B. Baker, 1990: Characteristics of cumulus
+  band clouds off the coast of hawaii. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{47~(3)}, 338--356,
+  \doi{10.1175/1520-0469(1990)047<0338:COCBCO>2.0.CO;2}.
+
+\bibitem[{Reade and Collins(2000)Reade, and Collins}]{Reade2000}
+Reade, W.~C., and L.~R. Collins, 2000: Effect of preferential concentration on
+  turbulent collision rates. \textit{Physics of Fluids (1994-present)},
+  \textbf{12~(10)}, 2530--2540, \doi{doi:http://dx.doi.org/10.1063/1.1288515}.
+
+\bibitem[{Riemer and Wexler(2005)Riemer, and Wexler}]{Riemer2005}
+Riemer, N., and A.~S. Wexler, 2005: Droplets to drops by turbulent coagulation.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{62~(6)}, 1962--1975,
+  \doi{10.1175/JAS3431.1}.
+
+\bibitem[{Rogers and Yau(1989)Rogers, and Yau}]{Rogers1989}
+Rogers, R.~R., and M.~K. Yau, 1989: \textit{A Short Course in Cloud Physics}.
+  3rd ed., Butterworth-Heinemann, 290 pp.
+
+\bibitem[{Rosa et~al.(2013)Rosa, Parishani, Ayala, Grabowski,, and
+  Wang}]{Rosa2013}
+Rosa, B., H.~Parishani, O.~Ayala, W.~W. Grabowski, and L.-P. Wang, 2013:
+  Kinematic and dynamic collision statistics of cloud droplets from
+  high-resolution simulations. \textit{New J. Phys.}, \textbf{15}, 045\,032,
+  \doi{10.1088/1367-2630/15/4/045032}.
+
+\bibitem[{Rosa et~al.(2012)Rosa, Parishani, Ayala, Wang,, and
+  Grabowski}]{Rosa2012}
+Rosa, B., H.~Parishani, O.~Ayala, L.-P. Wang, and W.~Grabowski, 2012:
+  \textit{High-Resolution Simulation of Turbulent Collision of Cloud Droplets},
+  Lecture Notes in Computer Science, Vol. 7204, chap.~41, 401--410. Springer
+  Berlin Heidelberg.
+
+\bibitem[{Rosa et~al.(2011)Rosa, Wang, Maxey,, and Grabowski}]{Rosa2011}
+Rosa, B., L.-P. Wang, M.~Maxey, and W.~Grabowski, 2011: An accurate and
+  efficient method for treating aerodynamic interactions of cloud droplets.
+  \textit{Journal of Computational Physics}, \textbf{230~(22)}, 8109 -- 8133",
+  \doi{http://dx.doi.org/10.1016/j.jcp.2011.07.012}.
+
+\bibitem[{Saffman and Turner(1956)Saffman, and Turner}]{Saffman1956}
+Saffman, P.~G., and J.~S. Turner, 1956: On the collision of drops in turbulent
+  clouds. \textit{j. Fluid Mech.}, \textbf{1},
+  \doi{http://dx.doi.org/10.1017/S0022112056000020}.
+
+\bibitem[{Sardina et~al.(2015)Sardina, Picano, Brandt,, and
+  Caballero}]{Sardina2015}
+Sardina, G., F.~Picano, L.~Brandt, and R.~Caballero, 2015: Continuous growth of
+  droplet size variance due to condensation in turbulent clouds. \textit{Phys
+  Rev Lett}, \textbf{115~(18)}, 184\,501.
+
+\bibitem[{Sedunov(1974)}]{sedunov1974}
+Sedunov, I., 1974: \textit{Physics of drop formation in the atmosphere}, Vol.
+  22094. Halsted Press.
+
+\bibitem[{Seifert et~al.(2010)Seifert, Nuijens,, and Stevens}]{Seifert2010}
+Seifert, A., L.~Nuijens, and B.~Stevens, 2010: Turbulence effects on warm-rain
+  autoconversion in precipitating shallow convection. \textit{Quarterly Journal
+  of the Royal Meteorological Society}, \textbf{136~(652)}, 1753--1762,
+  \doi{10.1002/qj.684}.
+
+\bibitem[{Siebert et~al.(2010)Siebert, Shaw,, and Warhaft}]{Siebert2010}
+Siebert, H., R.~Shaw, and Z.~Warhaft, 2010: Statistics of small-scale velocity
+  fluctuations and internal intermittency in marine stratocumulus clouds.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{67~(1)}, 262--273.
+
+\bibitem[{Siebert and Shaw(2017)Siebert, and Shaw}]{Siebert2017}
+Siebert, H., and R.~A. Shaw, 2017: Supersaturation fluctuations during the
+  early stage of cumulus formation. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{74~(4)}, 975--988.
+
+\bibitem[{Siebert et~al.(2013)}]{siebert2013}
+Siebert, H., and Coauthors, 2013: The fine-scale structure of the trade wind
+  cumuli over barbados - an introduction to the carriba project.
+  \textit{Atmospheric Chemistry and Physics}, \textbf{13~(19)},
+  10\,061--10\,077, \doi{10.5194/acp-13-10061-2013}.
+
+\bibitem[{Small et~al.(2009)Small, Chuang, Feingold,, and Jiang}]{Small2009}
+Small, J.~D., P.~Y. Chuang, G.~Feingold, and H.~Jiang, 2009: Can aerosol
+  decrease cloud lifetime? \textit{Geophysical Research Letters},
+  \textbf{36~(16)}.
+
+\bibitem[{Squires and Eaton(1991)Squires, and Eaton}]{Squires1991}
+Squires, K.~D., and J.~K. Eaton, 1991: Preferential concentration of particles
+  by turbulence. \textit{Phys. Fluids A: Fluid Dynamics (1989-1993)},
+  \textbf{3}, 1169--1178, \doi{10.1063/1.858045}.
+
+\bibitem[{Squires(1958)}]{Squires1958}
+Squires, P., 1958: The microstructure and colloidal stability of warm clouds.
+  \textit{Tellus}, \textbf{10}, 262--271,
+  \doi{10.1111/j.2153-3490.1958.tb02012.x}.
+
+\bibitem[{Srivastava(1989)}]{Srivastava1989}
+Srivastava, R.~C., 1989: Growth of cloud drops by condensation: A criticism of
+  currently accepted theory and a new approach. \textit{J. Atmos. Sci.},
+  \textbf{46~(7)}, 869--887.
+
+\bibitem[{Stevens and Feingold(2009)Stevens, and Feingold}]{Stevens2009}
+Stevens, B., and G.~Feingold, 2009: Untangling aerosol effects on clouds and
+  precipitation in a buffered system. \textit{Nature}, \textbf{461~(7264)},
+  607.
+
+\bibitem[{Stevens et~al.(2016)}]{Stevens2016}
+Stevens, B., and Coauthors, 2016: The barbados cloud observatory: Anchoring
+  investigations of clouds and circulation on the edge of the itcz.
+  \textit{Bull. Amer. Meteor. Soc.}, \textbf{97~(5)}, 787--801,
+  \doi{10.1175/BAMS-D-14-00247.1}.
+
+\bibitem[{Sullivan et~al.(1994)Sullivan, Mahalingam,, and Kerr}]{Sullivan1994}
+Sullivan, N.~P., S.~Mahalingam, and R.~M. Kerr, 1994: Deterministic forcing of
+  homogeneous, isotropic turbulence. \textit{Phys. Fluids (1994-present)},
+  \textbf{6}, 1612--1614, \doi{http://dx.doi.org/10.1063/1.868274}.
+
+\bibitem[{Sundaram and Collins(1997)Sundaram, and Collins}]{Sundaram1997}
+Sundaram, S., and L.~R. Collins, 1997: Collision statistics in an isotropic
+  particle-laden turbulent suspension. part 1. direct numerical simulations.
+  \textit{J. Fluid Mech.}, \textbf{335}, 75--109,
+  \doi{10.1017/S0022112096004454}.
+
+\bibitem[{Szumowski et~al.(1997)Szumowski, Rauber, Ochs,, and
+  Miller}]{Szumowski1997}
+Szumowski, M.~J., R.~M. Rauber, H.~T. Ochs, and L.~J. Miller, 1997: The
+  microphysical structure and evolution of hawaiian rainband clouds. part i:
+  Radar observations of rainbands containing high reflectivity cores.
+  \textit{J. Atmos. Sci.}, \textbf{54}, 369--385,
+  \doi{10.1175/1520-0469(1997)054<0369:tmsaeo>2.0.co;2}.
+
+\bibitem[{Tennekes and Lumley(1972)Tennekes, and Lumley}]{TL1972}
+Tennekes, H., and J.~L. Lumley, 1972: \textit{A first course in turbulence}.
+  MIT press.
+
+\bibitem[{Thompson and Eidhammer(2014)Thompson, and Eidhammer}]{Thompson2014}
+Thompson, G., and T.~Eidhammer, 2014: A study of aerosol impacts on clouds and
+  precipitation development in a large winter cyclone. \textit{Journal of the
+  Atmospheric Sciences}, \textbf{71~(10)}, 3636--3658.
+
+\bibitem[{Twomey(1959)}]{Twomey1959}
+Twomey, S., 1959: The nuclei of natural cloud formation part ii: The
+  supersaturation in natural clouds and the variation of cloud droplet
+  concentration. \textit{Geofisica pura e applicata}, \textbf{43~(1)},
+  243--249.
+
+\bibitem[{Twomey(1966)}]{Twomey1966}
+Twomey, S., 1966: Computations of rain formation by coalescence.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{23~(4)}, 405--411.
+
+\bibitem[{Vaillancourt and Yau(2000)Vaillancourt, and Yau}]{Vaillancourt2000}
+Vaillancourt, P.~A., and M.~K. Yau, 2000: Review of particle–turbulence
+  interactions and consequences for cloud physics. \textit{Bull. Amer. Meteor.
+  Soc.}, \textbf{81}, 285--298,
+  \doi{10.1175/1520-0477(2000)081<0285:ropiac>2.3.co;2}.
+
+\bibitem[{Vaillancourt et~al.(2002)Vaillancourt, Yau, Bartello,, and
+  Grabowski}]{Vaillancourt2002}
+Vaillancourt, P.~A., M.~K. Yau, P.~Bartello, and W.~W. Grabowski, 2002:
+  Microscopic approach to cloud droplet growth by condensation. part ii:
+  Turbulence, clustering, and condensational growth. \textit{Journal of the
+  Atmospheric Sciences}, \textbf{59}, 3421--3435,
+  \doi{10.1175/1520-0469(2002)059<3421:matcdg>2.0.co;2}.
+
+\bibitem[{Vaillancourt et~al.(2001)Vaillancourt, Yau,, and
+  Grabowski}]{Vaillancourt2001}
+Vaillancourt, P.~A., M.~K. Yau, and W.~W. Grabowski, 2001: Microscopic approach
+  to cloud droplet growth by condensation. part i: Model description and
+  results without turbulence. \textit{J. Atmos. Sci.}, \textbf{58}, 1945--1964,
+  \doi{10.1175/1520-0469(2001)058<1945:matcdg>2.0.co;2}.
+
+\bibitem[{Voigt et~al.(2016)}]{Voigt2016}
+Voigt, A., and Coauthors, 2016: The tropical rain belts with an annual cycle
+  and a continent model intercomparison project: Tracmip. \textit{Journal of
+  Advances in Modeling Earth Systems}, \textbf{8~(4)}, 1868--1891,
+  \doi{10.1002/2016MS000748}.
+
+\bibitem[{Wang et~al.(2005{\natexlab{a}})Wang, Ayala,, and
+  Grabowski}]{Wang2005a}
+Wang, L.-P., O.~Ayala, and W.~W. Grabowski, 2005{\natexlab{a}}: Improved
+  formulations of the superposition method. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{62~(4)}, 1255--1266, \doi{10.1175/jas3397.1}.
+
+\bibitem[{Wang et~al.(2005{\natexlab{b}})Wang, Ayala, Kasprzak,, and
+  Grabowski}]{Wang2005b}
+Wang, L.-P., O.~Ayala, S.~E. Kasprzak, and W.~W. Grabowski, 2005{\natexlab{b}}:
+  Theoretical formulation of collision rate and collision efficiency of
+  hydrodynamically interacting cloud droplets in turbulent atmosphere.
+  \textit{Journal of the Atmospheric Sciences}, \textbf{62~(7)}, 2433--2450,
+  \doi{10.1175/JAS3492.1}.
+
+\bibitem[{Wang et~al.(2008)Wang, Ayala, Rosa,, and Grabowski}]{Wang2008}
+Wang, L.-P., O.~Ayala, B.~Rosa, and W.~W. Grabowski, 2008: Turbulent collision
+  efficiency of heavy particles relevant to cloud droplets. \textit{New J.
+  Phys.}, \textbf{10}, 075\,013, \doi{10.1088/1367-2630/10/7/075013}.
+
+\bibitem[{Wang and Grabowski(2009)Wang, and Grabowski}]{Wang2009}
+Wang, L.-P., and W.~W. Grabowski, 2009: The role of air turbulence in warm rain
+  initiation. \textit{Atmospheric Science Letters}, \textbf{10}, 1--8,
+  \doi{10.1002/asl.210}.
+
+\bibitem[{Wang and Maxey(1993)Wang, and Maxey}]{Wang1993}
+Wang, L.-P., and M.~R. Maxey, 1993: Settling velocity and concentration
+  distribution of heavy particles in homogeneous isotropic turbulence.
+  \textit{J. Fluid Mech.}, \textbf{256}, 27--68,
+  \doi{10.1017/S0022112093002708}.
+
+\bibitem[{Wang et~al.(1998)Wang, Wexler,, and Zhou}]{Wang1998b}
+Wang, L.-P., A.~S. Wexler, and Y.~Zhou, 1998: Statistical mechanical
+  descriptions of turbulent coagulation. \textit{Phys. Fluids (1994-present)},
+  \textbf{10}, 2647--2651, \doi{http://dx.doi.org/10.1063/1.869777}.
+
+\bibitem[{Wang et~al.(2000)Wang, Wexler,, and Zhou}]{Wang2000}
+Wang, L.-P., A.~S. Wexler, and Y.~Zhou, 2000: Statistical mechanical
+  description and modelling of turbulent collision of inertial particles.
+  \textit{J. Fluid Mech.}, \textbf{415}, 117--153,
+  \doi{10.1017/S0022112000008661}.
+
+\bibitem[{Wang et~al.(2014)}]{Wang2014}
+Wang, Y., and Coauthors, 2014: Assessing the effects of anthropogenic aerosols
+  on pacific storm track using a multiscale global climate model.
+  \textit{Proceedings of the National Academy of Sciences}, \textbf{111~(19)},
+  6894--6899, \doi{10.1073/pnas.1403364111}.
+
+\bibitem[{Warner(1969)}]{Warner1969}
+Warner, J., 1969: The microstructure of cumulus cloud. part i. general features
+  of the droplet spectrum. \textit{Journal of the Atmospheric Sciences},
+  \textbf{26~(5)}, 1049--1059.
+
+\bibitem[{White et~al.(2017)White, Gryspeerdt, Stier, Morrison, Thompson,, and
+  Kipling}]{White2017}
+White, B., E.~Gryspeerdt, P.~Stier, H.~Morrison, G.~Thompson, and Z.~Kipling,
+  2017: Uncertainty from the choice of microphysics scheme in
+  convection-permitting models significantly exceeds aerosol effects.
+  \textit{Atmospheric Chemistry and Physics}, \textbf{17~(19)}, 12\,145.
+
+\bibitem[{Witte et~al.(2017)Witte, Ayala, Wang, Bott,, and Chuang}]{Witte2017}
+Witte, M.~K., O.~Ayala, L.-P. Wang, A.~Bott, and P.~Y. Chuang, 2017: Estimating
+  collision-coalescence rates from in situ observations of marine
+  stratocumulus. \textit{Quarterly Journal of the Royal Meteorological
+  Society}.
+
+\bibitem[{Wyszogrodzki et~al.(2013)Wyszogrodzki, Grabowski, Wang,, and
+  Ayala}]{Wyszogrodzki2013}
+Wyszogrodzki, A., W.~Grabowski, L.-P. Wang, and O.~Ayala, 2013: Turbulent
+  collision-coalescence in maritime shallow convection. \textit{Atmos. Chem.
+  Phys.}, \textbf{13}, 8471--8487, \doi{10.5194/acp-13-8471-2013}.
+
+\bibitem[{Xue et~al.(2017)}]{Xue2017}
+Xue, L., and Coauthors, 2017: Idealized simulations of a squall line from the
+  mc3e field campaign applying three bin microphysics schemes: Dynamic and
+  thermodynamic structure. \textit{Monthly Weather Review}, \textbf{145~(12)},
+  4789--4812, \doi{10.1175/MWR-D-16-0385.1}.
+
+\bibitem[{Xue et~al.(2008)Xue, Wang,, and Grabowski}]{Xue2008}
+Xue, Y., L.-P. Wang, and W.~W. Grabowski, 2008: Growth of cloud droplets by
+  turbulent collision–coalescence. \textit{Journal of the Atmospheric
+  Sciences}, \textbf{65~(2)}, 331--356, \doi{10.1175/2007jas2406.1}.
+
+\bibitem[{Yeung and Pope(1989)Yeung, and Pope}]{Yeung1989}
+Yeung, P., and S.~Pope, 1989: Lagrangian statistics from direct numerical
+  simulations of isotropic turbulence. \textit{J. Fluid Mech.}, \textbf{207},
+  531--586, \doi{http://dx.doi.org/10.1017/S0022112089002697}.
+
+\bibitem[{Zhou et~al.(2001)Zhou, Wexler,, and Wang}]{Zhou2001}
+Zhou, Y., A.~S. Wexler, and L.-P. Wang, 2001: Modelling turbulent collision of
+  bidisperse inertial particles. \textit{J. Fluid Mech.}, \textbf{433},
+  77--104, \doi{10.1017/S0022112000003372}.
+
+\end{thebibliography}

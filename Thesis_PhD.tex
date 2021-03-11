@@ -1,0 +1,325 @@
+ \documentclass [12pt,letterpaper]{report}
+% Add twoside for two-sided printing
+
+% Standard packages
+\usepackage{amsmath,amsfonts,amssymb,bm}         % Extra math definitions
+\usepackage{graphics}        % PostScript figures
+\usepackage{graphicx}        % jpg & png figures
+\usepackage{rotating}
+\usepackage{setspace}        % double spacing
+\usepackage{longtable}       % Tables spanning pages
+\usepackage{epigraph}        % Epigraphs
+%\usepackage{cite}
+\usepackage{here}            % Figure and table placement
+%\usepackage[final]{graphicx}
+%\usepackage{epsfig}
+\usepackage{threeparttable} % Three part tables - allows footnotes for tables
+\usepackage{epsf}
+%\usepackage[T1]{fontenc}
+%\usepackage{times}
+\usepackage{psfrag}
+\usepackage{rotating}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{enumerate}
+%\usepackage{stfloats}
+%\usepackage{amssymb}
+%\usepackage{amsxtra}
+%\usepackage{epic}
+%\usepackage{theorem}
+%\usepackage{exscale}
+
+% Custom packages
+%-----------------------
+%\usepackage{authblk}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=blue,
+}
+\usepackage{natbib}  			% Citation
+%\usepackage{url}
+\usepackage{multirow}
+\usepackage{empheq}
+
+\usepackage{slashbox}
+
+\def\acknowledgments{\paragraph*{Acknowledgments.}}
+
+%% tables, to make correct space around the horizontal lines at the
+%% top, underneath the column headers, and at the bottom of the table.
+\def\topline{\hline\hline\vrule height 10pt depth4pt width0pt\relax}
+\def\midline{\hline\vrule height 10pt width0pt\relax}
+\def\botline{\hline}
+%-----------------------
+\usepackage[first]{datestamp}   % Datestamp on first page of each chapter
+\usepackage[fancyhdr]{McECEThesis}  % Thesis style
+\usepackage{McGillLogo}     % McGill University crest
+% $Id: ThesisEx.tex,v 1.1 2005/06/09 12:48:46 kabal Exp $
+
+\usepackage{color}
+\def\headrulehook{\color{red}}      % Color the header rule
+
+%===== page layout
+% Define the side margins for a right-side page
+\insidemargin = 1.0in
+\outsidemargin = 1.0in
+
+% Above margin is space above the header
+% Below margin is space below footer
+\abovemargin = 0.8in
+\belowmargin = 0.7in
+
+%========= Document start
+
+\begin {document}
+
+%===== Title page
+
+\title{Impacts of Turbulence on Cloud Microphysics and Warm-Rain Initiation}
+\author{Sisi Chen (\includegraphics[width=0.15\textwidth]{Chinese_name.pdf})}
+\date{\Month\ \number\year}
+\organization{%
+  \\[0.2in]
+  \McGillCrest {!}{1in}\\   % McGill University crest
+  \\[0.1in]
+  Department of Atmospheric \& Oceanic Sciences\\
+  McGill University\\
+  Montreal, Canada}
+\note{%
+  {\color{red} \hrule height 0.4ex}
+  \vskip 3ex
+  A thesis submitted to McGill University in partial fulfillment of the
+  requirements for the degree of Doctorate of Philosophy in Atmospheric Sciences.
+  \vskip 3ex
+  \copyright\ \the\year\ Sisi Chen
+
+}
+
+\maketitle
+
+%===== insert blank page
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+%===== Justification, spacing for the main text
+\raggedbottom
+\onehalfspacing
+\pagenumbering{roman}
+
+
+%===== Abstract, Sommaire & Acknowledgments
+
+\doublespacing
+\section*{\centering EPIGRAPH}
+
+\begin{center}
+\large \emph{Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations. to boldly go where no man has gone before.} 
+\end{center}
+
+\rightline{\textit{--- Captain Kirk   }}
+\newpage
+\section*{\centering ACKNOWLEDGEMENTS}
+
+Your acknowledgement here.
+
+
+\newpage
+\section*{\centering CONTRIBUTION OF AUTHORS}
+
+The thesis that follows consists of five chapters: an introduction, three original articles, and a conclusion. The three articles have been published in the Journal of the Atmospheric Sciences and Atmospheric Chemistry and Physics. I conducted the research and wrote the manuscripts of all three papers, as part of my Ph.D. studies. The work described in Chapter \ref{sec:ch2} was performed in collaboration with Dr. P.A. Vaillancourt at Environment and Climate Change Canada (ECCC) and the work described in Chapter \ref{sec:ch4} was performed in collaboration with Dr. Lulin Xue at the National Center for Atmospheric Research (NCAR). The articles I included in this thesis reflect suggestions, comments and editorial help from all co-authors.
+
+
+\newpage
+\section*{\centering STATEMENT OF ORIGINALITY}
+
+The following elements of the thesis show original scholarship and represent distinct contributions to knowledge:
+
+\begin{itemize}
+\item The work described in Chapter \ref{sec:ch2} on the direct numerical simulation (DNS) studies covers a wide range of turbulence intensities and computational domain sizes. The study is the first to show that the Reynolds number, $R_\lambda$, in DNS experiments is only computational and should not be included in the parameterization of the turbulent collision kernel. An improved parameterization independent of the computational Reynolds number was formulated.
+
+\item The article in Chapter \ref{sec:ch3} offers one of the first comprehensive and quantitative DNS studies of turbulent collision efficiency for droplets prior to their effective gravitational-collisional growth stage ($r<30 \mu m$). In addition, realistic liquid water contents (LWCs) and droplet number concentrations comparable to that of cumulus clouds were used. Finally, the article presents the first attempt to simulate directly droplet growth by collision-coalesence using DNS to allow a quantitative evaluation of the broadening of the entire droplet size distribution (DSD) in various turbulent environments.
+
+\item The study in Chapter \ref{sec:ch4} provides the first complete DNS study of continuous droplet growth by condensation and collision-coalescence under various turbulent conditions. The tools developed in this study provides a direct and accurate approach to attack the challenging problem of the condensation-collision size gap. 
+
+\end{itemize}
+
+\newpage
+\section*{\centering ABSTRACT}
+In shallow cloud systems, such as cumulus or stratocumulus clouds, broad droplet size spectra and fast rain formation times are frequently observed using radar and in-situ measurements. However, these observations cannot be represented by classical condensational growth theory. Turbulence has been hypothesized to accelerate the formation of raindrops by enhancing the cloud droplet collision-coalescence process. In this thesis, the direct numerical simulation (DNS) approach is used to investigate the role of turbulence in cloud microphysics processes during warm-rain initiation and to quantify the effect of turbulence on the collision rate between droplets. We developed an accurate and sophisticated modeling framework that couples dynamics and thermodynamics, thus allowing the incorporation of droplet growth by simultaneous condensational and collisional processes under various turbulent conditions. 
+
+Throughout the thesis, three sets of numerical experiments are conducted to study the turbulence impact on various droplet growth processes: 1) the droplet geometric collision, i.e., collisions without considering the disturbance flow induced by the presence of droplets, 2) the droplet hydrodynamic collisions, by including the disturbance flow, and 3) the interactions between condensational growth and collisional growth by further including the thermodynamic fields. 
+
+The results of the first two sets of experiments demonstrate that for droplet pairs with different sizes ($r_1/r_2<0.8$), turbulence plays a dominant role in modifying the droplet hydrodynamic response to the local disturbance flow, weakly increasing the droplet relative velocity and creating clustering of droplets in space. Consequentially, a significant enhancement of the collision efficiency and a mild enhancement of geometric collision kernel resulted. On the other hand, for droplet pairs with similar sizes ($r_1/r_2>0.8$), the turbulence enhancement in geometric collision and droplet hydrodynamic interactions is strong. Since droplet condensational growth produces a narrow droplet size distribution (DSD), we hypothesize that turbulence effectively widens the narrow spectrum by boosting similar-sized collisions. This hypothesis is further verified by conducting simulations of DSD evolution through collision-coalescence at various flow conditions. It is found that turbulence significantly broadens the DSD, and similar-sized collisions contribute to  21-24\% of the total collisions compared to only 9\% in the still-air experiments. Finally we study the interaction of thermodynamics and dynamics and its impact on droplet growth by allowing droplets to simultaneously grow by condensation and collision in turbulent and non-turbulent environments. The results show that the condensational process promotes collisions in a turbulent environment while it reduces the collisions when in still air, indicating a positive impact of dynamics (turbulence) on the interaction of condensation and collision.
+
+In addition, we investigate the relative importance of different scales of turbulent flow on the collision statistics by varying the computational domain size. It is found that for small droplets ($r < 25 \mu m$), their motions and collisions are mainly affected by the smallest scales of turbulence (i.e. the Kolmogorov length scale) and the large-scale motion has negligible influence on modifying the collision rate. This suggests that on the one hand, turbulent collision statistics can be obtained by using relatively small computational resources, and on the other hand, the computational Reynolds number, $R_\lambda$, should be removed from the parameterization of the turbulent collision kernel. As a consequence, an improved parameterization of droplet turbulent collision kernel is proposed that is highly consistent with the DNS results. 
+
+\newpage
+
+\section*{\centering R\'ESUM\'E}
+Dans les syst\`emes de nuages bas, tels que les cumulus ou stratocumulus, des larges distributions de taille de gouttelettes et des temps de formation de pluie rapides sont fr\'equemment observ\'es en utilisant des radars et des mesures in-situ. Cependant, ces observations ne peuvent pas \^etre repr\'esent\'ees par la th\'eorie classique de la croissance par condensation. Une hypoth\`ese sugg\`ere que la turbulence acc\'el\`ere la formation de gouttes de pluie en am\'eliorant le processus de collision-coalescence des gouttelettes de nuage. Dans cette th\`ese, l'approche de simulation num\'erique directe (DNS) est utilis\'ee pour \'etudier le r\^ole de la turbulence dans les processus de microphysique des nuages durant l'initiation de la pluie chaude et quantifier l'effet de la turbulence sur le taux de collision entre gouttelettes. Nous avons d\'evelopp\'e un cadre de mod\'elisation pr\'ecis et sophistiqu\'e qui couple les processus dynamiques et thermodynamiques, permettant ainsi de combiner la croissance des gouttelettes par des processus simultan\'es de condensation et de collision dans diverses conditions turbulentes.
+
+Tout au long de la th\`ese, trois s\'eries d'exp\'eriences num\'eriques sont men\'ees pour \'etudier l'impact de la turbulence sur: 1) le taux de collision g\'eom\'etrique des gouttelettes, 2) le taux de collision hydrodynamique des gouttelettes, notamment l'efficacit\'e des collisions et 3) les interactions entre la croissance de condensation et la croissance collisionnelle (en incluant en plus les champs thermodynamiques).
+
+Les r\'esultats des deux premi\`eres s\'eries d'exp\'eriences montrent que pour les paires de gouttelettes de tailles diff\'erentes ($ r_1/r_2<0.8$), la turbulence joue un r\^ole dominant dans la modification de la r\'eponse hydrodynamique des gouttelettes au flux de perturbation locale et dans la cr\'eation de regroupements de gouttelettes dans l'espace. Cons\'equemment, une am\'elioration significative de l'efficacit\'e de la collision et une l\'eg\`ere am\'elioration du noyau de collision g\'eom\'etrique en r\'esultent. D'autre part, pour les paires de gouttelettes de taille similaire ($r_1/r_2>0.8 $), l'am\'elioration de la turbulence dans les interactions g\'eom\'etriques de collision et dans les interactions de l'hydrodynamiques des gouttelettes est forte. Puisque la croissance par condensation des gouttelettes produit une distribution de la taille des gouttelettes (DSD) qui est \'etroite, nous \'emettons l'hypoth\`ese que la turbulence \'elargit effectivement le spectre \'etroit en augmentant les collisions de taille similaire. Cette hypoth\`ese est en outre v\'erifi\'ee en effectuant une simulation de l'\'evolution DSD par collision-coalescence pour diverses conditions d'\'ecoulement. On constate que la turbulence \'elargit significativement le DSD et que les collisions de taille similaire contribuent \`a 21-24\% des collisions totales contre seulement 9\% dans les exp\'eriences en l'absence de vent. Finalement, nous \'etudions l'interaction de la thermodynamique et de la dynamique et son impact sur la croissance des gouttelettes en permettant aux gouttelettes de croître simultan\'ement par condensation et collision dans des environnements turbulents et non-turbulents. Les r\'esultats montrent que le processus de condensation favorise les collisions dans un environnement turbulent tout en r\'eduisant les collisions en l’absence de vent, indiquant un impact positif de la dynamique (turbulence) sur l'interaction de la condensation et de la collision.
+
+En outre, nous \'etudions l'importance relative des diff\'erentes \'echelles d'\'ecoulement turbulent sur les statistiques de collision en faisant varier la taille du domaine de calcul. On constate que pour les petites gouttelettes ($r<25\mu m$), leurs mouvements et collisions sont principalement affect\'es par les plus petites \'echelles de turbulence (\'echelle de Kolmogorov) et le mouvement \`a grande \'echelle a une influence n\'egligeable sur la modification du taux de collision. Ceci sugg\`ere que d'une part, les statistiques de collision turbulente peuvent \^etre obtenues en utilisant des ressources computationnelles relativement petites, et d'autre part, le nombre de Reynolds de calcul, $R_\lambda $, devrait \^etre retir\'e de la param\'etrisation du noyau de collision turbulent. En cons\'equence, une param\'etrisation am\'elior\'ee du noyau de collision turbulent de gouttelettes est propos\'ee, ce qui est hautement coh\'erent avec les r\'esultats du DNS.
+
+
+
+
+%========== Tables of contents, figures, tables
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+\chapter*{List of Acronyms}\markright{List of Acronyms}
+\begin{flushleft}
+\begin{longtable}{p{6cm}p{13cm}}
+  CCN          &  Cloud Condensation Nuclei\\
+  CRM          &  Cloud-System Resolving Model\\
+  DF           &  Disturbance Flow\\
+  DNS            &  Direct Numerical Simulation\\
+  DSD          &  Droplet Size Distribution\\
+  EDR          &  Eddy Dissipation Rate\\
+  GCM          &  General Circulation Model\\
+  LES           &  Large-Eddy Simulation\\
+  LWC          &  Liquid Water Content\\
+  MPI          &  Message Passing Interface\\
+  RDF          &  Radial Distribution Function\\
+  RRV          &  Radial Relative Velocity\\
+  SCE          &  Stochastic Collision Equation\\
+  \emph{pdf}    &  Probability Density Function\\
+  \emph{rms}    &  Root-Mean-Square\\
+\end{longtable}
+\end{flushleft}
+
+\newpage
+\chapter*{List of Constants and Symbols}\markboth{List of Constants and Symbols}{List of Constants and Symbols}
+
+The following list the most important symbols used in the thesis. Where relevant, boldface is used to denote vectors or matrices.
+
+~\\\noindent \Large Constants \normalsize
+\begin{flushleft}
+\begin{longtable}{p{6cm}p{13cm}}
+ $C_p=1005 J kg^{-1} K^{-1}$ & Specific heat for air \\
+ $D_v=2.55 \times 10^{-5} m^2 s^{-1}$ & Water vapor diffusivity\\
+ $D_t=2.22 \times 10^{-5} m^2 s^{-1}$ & Thermal diffusivity\\
+ $g=9.8 m/s^2$ & Gravitational constant\\
+ $\Gamma_d=-g/C_p$ & Dry adiabatic lapse rate\\
+ $K_a=2.48 \times 10^{-2} J m^{-1} s{-1} K^{-1}$ & Thermal conductivity of air \\
+ $L=2.477 \times 10^6 J kg^{-1} K^{-1}$ & Specific latent heat for water\\
+ $N_{Sc} = \nu / D_v$   & Schmidt number \\
+ $\nu = 1.6 \times 10^{-5} m^2 s^{-1}$ & Air kinematic viscosity \\
+ $R_v=461.5 J kg^{-1} K^{-1}$ & Individual gas constant for water vapour\\
+ $R_a=287 J kg^{-1} K^{-1}$ & Individual gas constant for dry air \\
+ $\rho_w = 1000.0 kg m^{-3}$   & Density of water \\
+
+ 
+
+\end{longtable}
+\end{flushleft}
+
+\noindent \Large Symbols \normalsize
+\begin{flushleft}
+\begin{longtable}{p{4cm}p{13cm}}
+    $C_d$, $C_{dM}$, $C\prime_d$ & Local condensation rate, parcel condensation rate, and condensation rate fluctuation $[kgs^{-1}kg^{-1}]$\\
+    $E(r_1,r_2)$ 	& Collision efficiency between droplets $r_1$ and $r_2$\\
+    $e_{sat}$            & Saturated water vapor pressure [$Pa$]\\
+    $\epsilon$ 		& Eddy dissipation rate [$cm^2 s^{-3}$]\\
+    $\eta$ 		& Kolmogorov length scale [m]\\
+    $\mathbf{F}$ 	& External forcing maintaining turbulence [$m s^{-2}$]\\
+    $f_D$               & Longitudinal correlation function of the velocity derivative\\
+    $f_v$               & Droplet ventilation coefficient\\
+    $g(R)$ 		& Radial distribution function\\
+    $\Gamma$ 		& Collision kernel [$m^3s^{-1}$]\\
+    $\mathbf{k}$ 	& Wave vector \\
+    $KE$, $KE_{in}$      & Total kinetic energy and amount of kinetic energy injection  [$m^2s^{-2}$]\\
+    $L$ 		& Computational domain size in one direction [m]\\
+    $\lambda$           & Taylor microscale [$m$]\\
+    $\lambda_D$         & Longitude Taylor microscale\\
+    $\mu$               & Turbulence intermittent exponent\\
+    $N$                 & Number of grid points\\
+    $\Omega$ 		& Computational domain size [$m^3$]\\
+    $P$ 		& Pressure [Pa]\\
+    $q_v$, $q_v\prime$, $q_{vs}$      & Water vapor mixing ratio, water vapor mixing ratio flucutaion, and saturated water vapor mixing ratio [$kgkg^{-1}$] \\
+    $\rho_a$		& Air density [$kgm^{-3}$]\\
+    $R_\lambda$   	& Taylor microscale Reynolds number\\
+    $Re_p$ 		& Droplet Reynolds number\\
+    $\tau_p$ 		& Particle response time [s]\\
+    $\tau_k$ 		& Kolmogorov timescale [s]\\
+    $r$, $r_1$, $r_2$   & Radius of droplet [m]\\
+    $R$ 		& Sum of radius $r_1$ and $r_2$\\
+    $St$ 		& Stokes number\\
+    $T, T\prime$        & Temperature and temperature fluctuation [$K$]\\
+    $u\prime$           & $rms$ velocity [$ms^{-2}$]\\
+    $\mathbf{U}$ 	& Turbulent flow velocity [$m/s$]\\
+    $\mathbf{V_t}$ 	& Droplet terminal velocity [$m/s$]\\
+    $\mathbf{V}$ 	& Droplet velocity [$m/s$]\\
+    $\mathbf{W_r}$ 	& Droplet radial relative velocity [$m/s$]\\
+    $\mathbf{W}$ 	& Droplet relative velocity [$m/s$]\\
+    $W\prime$           & Vertical perturbation velocity[$ms^{-1}$]\\
+    $x_0$               & Critical separation distance in gravitational collision kernel [$m$]\\
+    $Z$                 & Total enstrophy [$s^{-2}$]\\
+\end{longtable}
+\end{flushleft}
+
+%\noindent \Large Sets \normalsize
+%\begin{flushleft}
+%\begin{longtable}{p{2cm}p{13cm}}
+%    $\mathbb{B}$ & Set of binary numbers\\
+%    $\mathbb{R}$ & Set of real numbers\\
+%    %$\mathbb{Z}$ & Set of real numbers\\
+%\end{longtable}
+%\end{flushleft}
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+
+%========== Chapters
+\typeout{Introduction}
+\input{Sections/C-Intro}
+
+%========== Chapter 2 
+\typeout{}
+\input{Sections/C-2}
+
+%========== Chapter 3 
+\typeout{}
+\input{Sections/C-3}
+
+%========== Chapter 4 
+\typeout{}
+\input{Sections/C-4}
+
+%========== Chapter 5 
+\typeout{}
+\input{Sections/C-Conc}
+
+%========== Appendices
+%\appendix
+
+%%==========
+%\typeout{}
+%\input{sections/A-A}
+
+%%==========
+%\typeout{}
+%\input{sections/A-B}
+
+
+%========== Bibliography
+\typeout{}
+\begin{singlespace}
+   \bibliographystyle{ametsoc2014}
+  \bibliography{ThesisBib}
+\end{singlespace}
+
+\end{document}

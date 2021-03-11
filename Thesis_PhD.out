@@ -1,0 +1,48 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Clouds, weather, and climate}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Warm-rain initiation and condensation-collision size gap}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Possible mechanisms to broaden the droplet size spectrum}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.4}{Entrainment and mixing at the cloud edge}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Outstanding questions in warm cloud microphysics}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Methodology}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Direct numerical simulation}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Parallelization}{section.1.3}% 10
+\BOOKMARK [1][-]{section.1.4}{Dissertation outline}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Turbulence impact on cloud droplet geometric collisions}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Model and Methodology}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Flow, particles, and numerics}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Model improvements and validation}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Results}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Collision statistics with different box sizes \(R\)}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Collision statistics under different eddy dissipation rates}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Can we formulate a better collision parameterization?}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{Turbulent collision kernel}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{Radial relative velocity}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.3}{Radial distribution function}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.4}{Comparisons with DNS data and other models}{section.2.4}% 24
+\BOOKMARK [1][-]{section.2.5}{Summary and discussion}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Turbulence impact on collision efficiency and broadening of droplet size distribution}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{Model description}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Turbulent flow field}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{Droplet motion and disturbance flow field}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.3}{Collision efficiency}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.4}{Droplet growth}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.5}{Validation}{section.3.2}% 33
+\BOOKMARK [1][-]{section.3.3}{Result and analysis}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.1}{Collision efficiency}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.2}{Turbulent collision kernel}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.3}{Evolution of droplet size distribution}{section.3.3}% 37
+\BOOKMARK [1][-]{section.3.4}{Summary and outlook}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{Turbulence impact on warm-rain initiation}{}% 39
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{Model description and experimental setup}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.2.1}{Microscopic equations}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.2}{Macroscopic equations}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.3}{Experimental setup}{section.4.2}% 44
+\BOOKMARK [1][-]{section.4.3}{Results and discussion}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Conclusion and future directions}{}% 47
+\BOOKMARK [0][-]{chapter.5}{Bibliography}{}% 48
